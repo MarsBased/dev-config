@@ -11,18 +11,18 @@ cp /tmp/marstemplate/zsh/.zshrc ~/.zshrc
 mv ~/.gitignore ~/.gitignore.old
 cp /tmp/marstemplate/zsh/.gitignore ~/.gitignore
 
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew install Caskroom/cask/java
+
+brew install rbenv ruby-build mysql postgresql elasticsearch nodejs imagemagick mongodb redis wget
+
+brew update && brew upgrade ruby-build
+
+rbenv install 2.2.2
+
 # Install Package Control for Sublime
 wget https://packagecontrol.io/Package%20Control.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
 
 # Copy sublime snippets
 cp /tmp/marstemplate/sublime/* ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-brew install Caskroom/cask/java
-
-brew install rbenv ruby-build mysql postgresql elasticsearch nodejs imagemagick mongodb redis
-
-brew update && brew upgrade ruby-build
-
-rbenv install 2.2.2

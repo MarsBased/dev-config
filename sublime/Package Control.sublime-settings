@@ -1,0 +1,33 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AngularJS",
+		"BracketHighlighter",
+		"ColorPicker",
+		"Cucumber",
+		"Emmet",
+		"JSHint Gutter",
+		"Package Control",
+		"PackageResourceViewer",
+		"Rails Developer Snippets",
+		"RSpec",
+		"RubyTest",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeERB",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimePackageSync",
+		"SyncedSideBar",
+		"Theme - Afterglow",
+		"TrailingSpaces"
+	],
+	"repositories":
+	[
+		"https://github.com/n1k0/SublimeHighlight"
+	]
+}
